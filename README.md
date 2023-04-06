@@ -28,9 +28,7 @@ Packages used: configparser, os, shutil, datetime, PySimpleGUI
 
 Additional functionality:
 
-    For operations that involves replacement of string, a backup functionality is implemented to prevent loss of information. The input text file will be
-copied to a folder named "Backup_<DateTime>" which will be created under the execution path.
-
+For operations that involves replacement of string, a backup functionality is implemented to prevent loss of information. The input text file will be copied to a folder named "Backup_<DateTime>" which will be created under the execution path.
 
 Note : The functions are performed based on the config file's section header. The header must be any one of the following:
 
